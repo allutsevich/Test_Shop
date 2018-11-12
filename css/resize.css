@@ -1,0 +1,297 @@
+@import url(reset.css);
+
+@media screen and (max-width: 414px) {
+    .center {
+	   width: 414px;
+	   margin: 0 auto;
+       padding: 0;
+       position: relative;
+    }
+    
+    .wrap-page, .nav-list {width: 100%;}
+    
+    .menuToggle {
+        display: block;
+        float: left;
+        width: 50px;
+        margin-top: 33px;
+        margin-left: 25px;
+        margin-right: 115px;
+        margin-bottom: 48px;
+    }
+    .menuToggle:hover {cursor: pointer;}
+    
+    .nav-list, .yellow-box-content, .form-buy, .scroll, .items, .info-img__image2, .quality-img__image2, .related__title, .footer-icons, .alto {display: none;}
+    
+    .logo {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+    
+    .cart-block {
+        margin-top: 23px;
+        margin-right: 17px;
+    }
+    
+    .nav-list {
+        width: 120px;
+        height: auto;
+        margin-left: -165px;
+        margin-bottom: 20px;
+        margin-top: 70px;
+        float: left;
+    }
+    
+    .nav-list__link {
+        display: block;
+    }
+    
+    .cart-block__link-text {margin-right: 4px;}
+    
+    .yellow-box {
+        width: 207px;
+        height: 578px;
+        margin-left: 0;
+    }
+    
+    .collection {
+        height: auto;
+        background-position: left;
+        background-image: none;
+    }
+    
+    .wrap-yellow, .wrap-gallery {width: 414px;}
+    
+    .wrap-gallery {
+        margin-right: 0;
+        float: none;
+        height: auto;
+    }
+    
+    .gallery-image, .gallery-image__img {
+        width: 299.7px;
+        height: 498.4px;
+    }
+    
+    .gallery-links {
+        width: 110px;
+        right: 25px;
+        top: 60px;
+    }
+    
+    .gallery-links__link {width: 110px;}
+    .gallery-image, .gallery-image__img {margin: -100px auto 0;}
+    
+    .yellow-box {
+        padding-top: 240px;
+        float: left;
+    }
+    
+    .form-mobile, .yellow-mobile {display: block;}
+    .buy-box {float: none;}
+    
+    .form-mobile {
+        width: 414px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .yellow-mobile {
+        margin-left: 0;
+        padding-top: 739px;
+        padding-bottom: 20px;
+    }
+    
+    .yellow-box-content, .yellow-box-content__subtitle, .yellow-box-content__title, .yellow-box-content__text {
+        width: 366px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .yellow-box-content__subtitle {font-size: 10px;}
+    .yellow-box-content__text {font-size: 9px;}
+    
+    .yellow-box-content__title {
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+    
+    .pick-color__link {
+        width: 240px;
+        font-size: 10px;
+    }
+    
+    .line-bottom {
+        width: 245px;
+        height: 1px;
+    }
+    
+    .dropdown-menu {
+        width: 245px;
+        margin-left: 36px;
+        margin-right: 40px;
+        margin-top: 6px;
+    }
+    
+    .buy-box__text, .buy-box__btn {font-size: 12px;}
+    
+    .buy-box__btn {
+        width: 23px;
+        height: 23px;
+    }
+    .buy-box__btn:hover {background-color: #fedfc1;}
+    
+    .buy-box__text {
+        width: 15px;
+        padding-left: 4px;
+    }
+    
+    .buy-box__add {
+        width: 185px;
+        height: 45px;
+        font-size: 8px;
+        margin: 0 auto;
+    }
+    
+    .info-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    
+    .info-img__image1 {
+        position: relative;
+        width: 228px;
+        height: 360px;
+        margin: 0 auto;
+    }
+    
+    .info-content {
+        width: 414px;
+        margin-left: 0;
+        margin-top: 48px;
+    }
+    
+    .info-last-txt {margin-top: 31px;}
+    
+    .wrap-quality {
+        padding-top: 226px;
+        padding-bottom: 61px;
+    }
+    
+    .info-btn-mobile {
+        display: block;
+        width: 185px;
+        height: 45px;
+        font-family: 'Futura PT Demi';
+        font-size: 8px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 4px;
+        text-align: center;
+        color: #000000;
+        background: none;
+        border: 2px solid #000;
+        line-height: 45px;
+        margin: 35px auto 0;
+    }
+    .info-btn-mobile:hover {
+        background-color: #fff;
+        border-color: #fff;
+    }
+    
+    .quality-line-top {
+        height: 125px;
+        margin: -176px auto 0;
+    }
+    
+    .yellow-block {
+        width: 363px;
+        height: 45px;
+        top: -77px;
+    }
+    
+    .yellow-block__title {
+        transform: none;
+        font-size: 35px;
+        line-height: 1.29;
+        letter-spacing: 14px;
+        margin-top: -23px;
+    }
+    
+    .quality-content {
+        width: 414px;
+        margin-left: 0;
+        padding-top: 41px;
+    }
+    
+    .yellow-box-content__text {margin-bottom: 7px;}
+    .yellow-box-content__title {margin-bottom: 5px;}
+    .quality-content ul, .quality-img {width: 414px;}
+    .quality-content ul {margin-bottom: 44px;}
+    
+    .quality-img {
+        float: none;
+    }
+    
+    .quality-img__image1 {
+        position: relative;
+        width: 228px;
+        height: 360px;
+        margin: 0 auto;
+    }
+    
+    .quality-line-bottom {
+        height: 125px;
+        margin: -264px auto 0;
+    }
+    
+    .related__title-mobile {
+        display: block;
+        font-size: 35px;
+        line-height: 1.29;
+        letter-spacing: 14px;
+    }
+    
+    .owl-carousel, .related, .owl-carousel .owl-stage-outer, .owl-theme .owl-nav, .footer-nav, .no-js .owl-carousel, .owl-carousel.owl-loaded {width: 414px;}
+    .related__title {margin-top: -24px;}
+    
+    .owl-carousel__img {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .related-btn__btn {
+        width: 185px;
+        height: 45px;
+        font-size: 8px;
+        margin: 138px auto 0;
+        line-height: 45px;
+    }
+    
+    .footer-nav {margin: 86px auto 0;}
+    
+    .footer-nav__list-item a {
+        font-size: 8px;
+        line-height: 3.13;
+        letter-spacing: 4px;
+    }
+    
+    .footer-nav__list-item {margin-right: 24px;}
+    .footer-nav ul {margin-left: 47px;}
+    
+    .alto-mobile {
+        display: block;
+        width: 230px;
+        margin: 0 auto 5px;
+        float: none;
+    }
+    
+    .alto__text {
+        font-size: 8px;
+        line-height: 2.13;
+        text-align: center;
+    }
