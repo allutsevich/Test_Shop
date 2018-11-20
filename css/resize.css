@@ -7,6 +7,7 @@
     
     .wrap-head {
         background: linear-gradient(to right, #8c84f9, #a165f4);
+        background: -webkit-linear-gradient(to right, #8c84f9, #a165f4);
         padding-bottom: 157px;
         padding-top: 40px;
     }
